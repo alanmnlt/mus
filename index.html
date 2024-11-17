@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korol i Shut Music Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Korol i Shut - Music Portal</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#genres">Genres</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to the World of Korol i Shut</h2>
+        <p>Explore the legendary band Korol i Shut through their music, videos, and stories. Dive into the unique world of folk punk and rock!</p>
+    </section>
+
+    <!-- Music Section -->
+    <section id="music">
+        <h2>Music</h2>
+        <div class="album">
+            <h3>Album: The King's Jesters</h3>
+            <p>Year: 1994</p>
+            <audio controls play>
+
+               <source src="https://drive.google.com/uc?export=download&id=19oJD_pMlIJNYRUDdMWxgknCJhwdZ99LW" type="audio/mpeg">
+
+           
+            </audio>
+        </div>
+        <div class="album">
+            <h3>Album: Heroic Ballads</h3>
+            <p>Year: 1999</p>
+            <audio controls>
+                <source src="https://drive.google.com/file/d/1iAPXOSxwqii4TPORe3ukFTXmyf1ui8jq/view?usp=drive_link" type="audio/mpeg">
+               
+            </audio>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos">
+        <h2>Videos</h2>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/-rzs5ClnLOM" title="Король и Шут - Садовник" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></iframe>
+        <p>Watch more videos on our official <a href="" target="_blank">YouTube Channel</a>.</p>
+    </section>
+
+    <!-- Genres Section -->
+    <section id="genres">
+        <h2>Genres</h2>
+        <ul>
+            <li>Punk Rock</li>
+            <li>Folk Punk</li>
+            <li>Hard Rock</li>
+        </ul>
+    </section>
+
+ 
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Korol i Shut Fan Portal. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
